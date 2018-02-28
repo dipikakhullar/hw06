@@ -1,11 +1,9 @@
 //Assignment: bouncing-circles.js Modify the code in the following ways:
 
-/**
-Add a "radius" property to each circle.
-Decrease the radius every time the circle hits a boundary.
-Reset the location & size of each circle when it disappears.
-Add a visual indicator that triggers when a circle hits a boundary.
-**/var circles = [];
+/** Add a "radius" property to each circle. Decrease the radius every time the circle hits a boundary. Reset the location & size of each circle when it disappears.
+Add a visual indicator that triggers when a circle hits a boundary. */
+
+var circles = [];
 var radi = [];
 var hitBoundary = false;
 
