@@ -1,12 +1,9 @@
-/*
-Modify the code to add player scores! 
-Think about what you'll need to add in the data, render, simulate, and user input categories.
-What new variables do you need, or what objects need new properties? 
-How do you draw the scores on the board? 
-How do you trigger conditions to increase the scores? 
-(And, what happens to the gameplay when someone scores -- perhaps another round?) 
-Hint: there is already a trigger condition in the code, questionably marked, that might be useful for you.
-*/var puck = {
+/** Modify the code to add player scores! Think about what you'll need to add in the data, render, simulate, and user input categories.
+What new variables do you need, or what objects need new properties? How do you draw the scores on the board? How do you trigger conditions to increase the scores? 
+(And, what happens to the gameplay when someone scores -- perhaps another round?) Hint: there is already a trigger condition in the code, questionably marked, that might be useful for you.
+*/
+
+var puck = {
   x: 200,
   y: 200,
   xSpeed: 3,
